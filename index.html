@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Привет, я Александр</title>
+
+  <!-- ==================== CSS — КАК ВЫГЛЯДИТ ==================== -->
+  <style>
+    body {
+      font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 60px 30px;
+      background: #fdf6e3;
+      color: #2d2d2d;
+      line-height: 1.6;
+    }
+
+    h1 {
+      font-size: 42px;
+      text-align: center;
+      margin-bottom: 30px;
+      color: #b8651b;
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 40px;
+    }
+
+    button {
+      display: block;
+      margin: 0 auto;
+      width: 140px;
+      height: 140px;
+      font-size: 22px;
+      font-weight: bold;
+      background: #000000;
+      color: #ff0000;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: transform 0.15s, background 0.15s;
+    }
+
+    button:hover {
+      background: #1a1a1a;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+
+<body>
+  <!-- ==================== HTML — ЧТО НА СТРАНИЦЕ ==================== -->
+  <h1>Привет, я Александр, учусь вайбкодить</h1>
+
+  <p>
+    18 лет в розничной торговле — два магазина автомобильного освещения.
+    Сейчас строю новый бизнес: автоматизация для малого и среднего бизнеса
+    с помощью ИИ-агентов. Параллельно делаю сайт-портфолио модульного дома,
+    который построил своими руками.
+  </p>
+
+  <button onclick="sayHello()">Пуск</button>
+
+  <!-- ==================== JAVASCRIPT — КАК РЕАГИРУЕТ ==================== -->
+  <script>
+    function sayHello() {
+      alert("Поехали");
+    }
+  </script>
+</body>
+</html>
